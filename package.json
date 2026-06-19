@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest --run",
-    "lint": "eslint .",
-    "build": "vite build"  
+    "lint": "eslint ." 
   },
   "keywords": [],
   "author": "",

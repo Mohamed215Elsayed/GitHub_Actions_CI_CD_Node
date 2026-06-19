@@ -5,6 +5,7 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
+  workflow_dispatch:   # optional – allows manual trigger
 
 jobs:
   build:
@@ -28,6 +29,3 @@ jobs:
 
       - name: Run tests
         run: npm test
-
-      - name: Build (if needed)
-        run: npm run build --if-present
